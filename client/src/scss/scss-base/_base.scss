@@ -1,0 +1,30 @@
+body {
+   background-color: var(--primary);
+   color: var(--accent);
+   transition: all .3s ease 0s;
+}
+
+.wrapper {
+   min-height: 100vh;
+   display: flex;
+   flex-direction: column;
+}
+
+.container {
+   max-width: $mw;
+   margin: 0 auto;
+   width: 100%;
+
+   @media (max-width: $md1) {
+      max-width: 970px;
+   }
+
+   @media (max-width: $md2) {
+      max-width: 750px;
+   }
+
+   @media (max-width: $md3) {
+      max-width: none;
+      padding: 0 10px;
+   }
+}

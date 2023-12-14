@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Maven+Pro:wght@400;500;600&display=swap');
+
+// Media
+$minwidth: 320px;
+$mw: 1400px;
+$md1: $mw + 12px;
+$md2: 992.98px;
+$md3: 767.98px;
+$md4: 479.98px;
+
+:root {
+   --font-main: 'Maven Pro', sans-serif;
+
+   --primary: #eae4e8;
+   --accent: #121d31;
+   --error: #53cbff;
+
+   --bg-auth: url('../assets/bg-sun.jpg');
+}
+
+.dark {
+   --primary: #121d31;
+   --accent: #eae4e8;
+   --error: #ff1861;
+
+   --bg-auth: url('../assets/bg-moon.jpg');
+}
